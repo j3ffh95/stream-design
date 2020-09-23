@@ -49,6 +49,7 @@ body {
   width: 0;
   height: 0;
   z-index: 10;
+  cursor: pointer;
 }
 
 nav {
@@ -77,4 +78,31 @@ button {
   font-size: 1.2rem;
   font-weight: bold;
   padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.green {
+  color: #00d69f;
+}
+
+.red {
+  color: #e75050;
+}
+
+.orange {
+  color: #d27752;
+}
+
+@media screen and (max-width: 768px) {
+  nav button {
+    display: none;
+  }
+
+  nav {
+    justify-content: center;
+  }
+
+  .col {
+    width: 100%;
+  }
 }
